@@ -9,6 +9,7 @@
 body {
     background-color: var(--body-background-color);
     font-family: var(--main-font-family);
+    margin: 0;
 }
 
 h1, h2 {
@@ -23,5 +24,12 @@ p {
     color: var(--secondary-color);
 }
 
+.container {
+    padding: 20px 40px;
+}
 
-
+video.camera-video {
+    display: block;
+    height: auto;
+    border-radius: 6px; 
+}
