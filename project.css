@@ -1,0 +1,25 @@
+:root {
+    --main-font-family: 'Poppins, sans-serif';
+    --heading-font-family: 'Italiana, sans-serif';
+    --body-background-color: #232443;
+    --primary-color: #BAE8E8;
+    --secondary-color: #E3F6F5;
+}
+
+body {
+   background-color: var(--body-background-color);
+}
+
+h1, h2 {
+    font-family: var(--heading-font-family);
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--main-font-family);
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+
