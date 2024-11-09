@@ -1,6 +1,6 @@
 :root {
-    --main-font-family: 'Poppins, sans-serif';
-    --heading-font-family: 'Italiana, serif'; 
+    --main-font-family: 'Poppins', sans-serif;
+    --heading-font-family: 'Italiana', serif; 
     --body-background-color: #232443;
     --primary-color: #BAE8E8;
     --secondary-color: #E3F6F5;
@@ -41,8 +41,12 @@ h1, h2 {
 
 p {
     font-family: var(--main-font-family);
-    font-size: 16px;
+    font-size: 14px;
     color: var(--secondary-color);
+}
+
+em {
+    font-weight: bolder;
 }
 
 .container {
