@@ -42,6 +42,7 @@ h1, h2 {
 p {
     font-family: var(--main-font-family);
     font-size: 14px;
+    font-weight: 200;
     color: var(--secondary-color);
 }
 
@@ -51,6 +52,18 @@ em {
 
 .container {
     padding: 20px 40px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    color: var(--body-background-color) !important;
+    font-size: 12px;
+    font-weight: 550;
+    border: none;
+}
+
+.btn-primary:hover {
+    opacity: 90%;
 }
 
 video.camera-video {
