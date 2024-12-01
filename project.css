@@ -77,3 +77,19 @@ video.camera-video {
     height: auto;
     border-radius: 6px; 
 }
+
+.review-box {
+    background-color: rgba(249, 249, 249, 0.4);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.review-author {
+    display: flex;
+    gap: 10px;
+}
+
+.review-img {
+    height: 40px;
+    width: 40px;
+}
