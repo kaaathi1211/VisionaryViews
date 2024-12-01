@@ -33,9 +33,15 @@ body {
     opacity: 60%;
 }
 
-h1, h2 {
+h1 {
     font-family: var(--heading-font-family);
     font-size: 25px;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--heading-font-family);
+    font-size: 20px;
     color: var(--primary-color);
 }
 
