@@ -95,7 +95,7 @@ video.camera-video {
 }
 
 form {
-    border: #BAE8E8 solid, 0.5px;
+    border: 0.5px solid #BAE8E8;
     border-radius: 4px;
     padding: 10px;
     margin: 0 auto;
@@ -108,4 +108,15 @@ form button {
     width: 50% !important;
     margin: 0 auto !important;
     display: block !important;
+}
+
+footer {
+    border-top: 0.5px solid #BAE8E8;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-txt {
+    text-align: center;
 }
