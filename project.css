@@ -93,3 +93,19 @@ video.camera-video {
     height: 40px;
     width: 40px;
 }
+
+form {
+    border: #BAE8E8 solid, 0.5px;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+form input,
+form textarea,
+form button {
+    width: 50% !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
