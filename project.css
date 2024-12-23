@@ -127,6 +127,15 @@ footer {
 
 @media (max-width: 767px)
 {
+    .home-img {
+        max-height: 550px;
+        display: block;
+        margin: 0 auto;
+    }
+    .caption{
+        text-align: center;
+    }
+
     .contact-text {
         text-align: center;
     }
