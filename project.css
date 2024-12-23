@@ -110,6 +110,10 @@ form button {
     display: block !important;
 }
 
+.contact-img{
+    border-radius: 6px;
+}
+
 footer {
     border-top: 0.5px solid #BAE8E8;
     width: 100vw;
@@ -120,3 +124,18 @@ footer {
 .footer-txt {
     text-align: center;
 }
+
+@media (max-width: 767px)
+{
+    .contact-text {
+        text-align: center;
+    }
+    .contact-img {
+        padding: 10px;
+        max-height: 300px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 6px !important;
+    }
+
+    }
