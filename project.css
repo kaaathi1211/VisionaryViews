@@ -127,6 +127,9 @@ footer {
 
 @media (max-width: 767px)
 {
+    .intro-text {
+        text-align: center;
+    }
     .home-img {
         max-height: 550px;
         display: block;
