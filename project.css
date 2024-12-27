@@ -120,6 +120,11 @@ form button {
     display: block !important;
 }
 
+label {
+    color: #BAE8E8;
+    opacity: 60%;
+}
+
 .contact-img {
     border-radius: 6px;
 }
