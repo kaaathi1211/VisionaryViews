@@ -38,7 +38,7 @@ const galleryData = [
     `;
   }
   
-  const galleryContainer = document.querySelector("#gallery-container"); // Ensure you have a container in your HTML with this ID
+  const galleryContainer = document.querySelector("#gallery-container");
   galleryData.forEach((section) => {
     galleryContainer.innerHTML += createGallerySection(section);
   });
