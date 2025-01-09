@@ -147,6 +147,8 @@ label {
 }
 
 .pricing-box {
+    background-color: var(--body-background-color);
+    background: linear-gradient(#232443, #585CA9);
     border: 0.5px solid var(--primary-color);
     border-radius: 6px;
     padding: 16px;
