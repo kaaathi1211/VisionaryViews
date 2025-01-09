@@ -64,7 +64,7 @@ h3 {
     color: var(--primary-color);
 }
 
-p {
+p, li {
     font-family: var(--main-font-family);
     font-size: 14px;
     font-weight: 200;
@@ -144,6 +144,28 @@ label {
     float: inline-end;
     padding: 10px;
     border-radius: 12px;
+}
+
+.pricing-box {
+    border: 0.5px solid var(--primary-color);
+    border-radius: 6px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.pricing-disclaimer {
+    text-align: center;
+    font-size: 8px;
+    margin: 0 auto;
 }
 
 footer {
